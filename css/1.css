@@ -1,0 +1,134 @@
+@font-face{
+    font-family: "smeshariki";
+    src: url(../font/smeshariki2007fixed_regular.ttf);
+}
+body{
+    background: rgb(59, 19, 95);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex:1 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    background: url(../img/shapka.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    height: auto;
+    width: 20%;
+    aspect-ratio: 2/1;
+    border-radius: 10px;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: calc(0.5em + 1vw);
+    color: white;
+    flex-grow: 1;
+    font-family: "smeshariki";
+}
+.nav-item{
+    box-sizing: border-box;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.nav-item:hover{
+    color:#00bbff;
+    text-shadow: 
+    0 0 5px #fff, /* Основная белая тень */
+    0 0 10px #02698e98, /* Более размытая синяя тень */
+    0 0 15px #02698e; /* Ещё более широкая зелёная тень */
+}
+.bg-line{
+    background: url(../img/zagolovok.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3/1;
+    margin: 25px 0;
+    border-radius: 10px;
+}
+.head{
+    font-size: calc(1.5rem + 5vw);
+    color: rgb(191, 144, 232);
+    text-shadow: 3px 2px 1px rgb(53, 17, 85);
+    text-align: center;
+    transform: translateY(-45px);
+     font-family: "smeshariki";
+}
+.line{
+    display: flex;
+    margin: 25px auto;
+    width: 80vw;
+}
+.img1{
+    object-fit: scale-down;
+    flex: 1 1 50%;
+}
+.text1{
+    color: white;
+    font-size: calc(0.5em + 1vw);
+    margin: 0px 10px 10px 20px;
+    flex: 1 1 50%;
+    text-align: center;
+    font-family: "smeshariki";
+}
+.img2{
+    object-fit: scale-down;
+    flex: 1 1 50%;
+}
+.img2 img, .img1 img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.text2{
+    color: white;
+    font-size: calc(0.5em + 1vw);
+    margin: 0px 10px 10px 20px;
+    flex: 1 1 50%;
+    text-align: center;
+    font-family: "smeshariki";
+}
+footer{
+    color: #FFF0F5;
+    display: flex;
+    width: 100%;
+    background-color: rgb(126, 55, 126);
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    font-family: "smeshariki";
+}
+.footer-nav-item{
+    font-size: calc(0.2em + 1vw);
+}
+.icons{
+    display: flex;
+    width: 30vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-nav-item:hover{
+    color:#ffff00;
+    text-shadow: 
+    0 0 5px #fff, /* Основная белая тень */
+   0 0 8px #ffe601b4, /* Более размытая желтая тень */
+    0 0 15px #ff8000b4; /* Ещё более широкая оранжевая тень */
+}
+.icon-item:hover{
+    color:#ffff00;
+    text-shadow: 
+    0 0 1px #fff, /* Основная белая тень */
+    0 0 8px #ffe601b4, /* Более размытая желтая тень */
+    0 0 15px #ff8000b4; /* Ещё более широкая оранжевая тень */
+}
