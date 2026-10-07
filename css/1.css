@@ -55,11 +55,11 @@ header{
     border-radius: 10px;
 }
 .head{
-    font-size: calc(1.5rem + 5vw);
+    font-size: calc(1.1rem + 5vw);
     color: rgb(191, 144, 232);
     text-shadow: 3px 2px 1px rgb(53, 17, 85);
     text-align: center;
-    transform: translateY(-45px);
+    transform: translateY(-7px);
      font-family: "smeshariki";
 }
 .line{
